@@ -38,6 +38,7 @@
     padding: 43px; 
     background-color: #1C1C1C;
 }
+
 .titulo_site {
     display: flex;
     width: 16.3125rem; 
@@ -51,6 +52,7 @@ h1 {
     font-weight: 400;
     line-height: 1.6; 
 }
+
 button {
     background-color: #1C1C1C;
     border: none;
