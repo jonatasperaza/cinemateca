@@ -35,23 +35,23 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 43px; 
+    padding: 48px;
     background-color: #1C1C1C;
 }
-
 .titulo_site {
     display: flex;
-    width: 16.3125rem; 
-    height: 5.625rem;   
+    width: 16.31rem;
+    height: 5.63rem;
 }
 h1 {
     color: #D4E7F7;
     font-family: Arial, sans-serif;
-    font-size: 1.25rem; 
+    font-size: 1.25rem;
     font-style: normal;
     font-weight: 400;
-    line-height: 1.6; 
+    line-height: 1.6;
 }
+
 
 button {
     background-color: #1C1C1C;
@@ -61,9 +61,14 @@ button {
     font-style: normal;
     cursor: pointer;
 }
-button:hover {
-    border: 1px solid #D4E7F7; 
+
+
+.menu-left,
+.menu-right {
+    display: flex;
+    gap: 2.7rem;
 }
+
 
 .dropdown {
     display: none;
@@ -91,19 +96,14 @@ button:hover {
     display: block;
 }
 
-.menu-left,
-.menu-right {
-    display: flex;
-    gap: 2.125rem;
-}
 
 @media (max-width: 768px) {
     .menu-left, .menu-right {
-        display: none; 
+        display: none;
     }
     .dropdown {
         display: block;
-        margin-right: 25px; 
+        margin-right: 25px;
     }
     .navbar {
         padding: 20px;
