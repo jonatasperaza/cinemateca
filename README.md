@@ -2,6 +2,11 @@
 
 Bem-vindo à Cinemateca! 
 
+## Configuração do ambiente
+Siga os passos da "Instalação da versão LTS do NodeJS"
+
+https://eduardo-da-silva.github.io/aula-desenvolvimento-web/ambiente
+
 ## Como Executar o Projeto
 
 1. Clone o repositório:
